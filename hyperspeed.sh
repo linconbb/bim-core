@@ -113,7 +113,8 @@ run_test() {
         speed_test '陕西西安5G' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5vbmUtcHVuY2gud2luOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdC5vbmUtcHVuY2gud2luOjgwODAvdXBsb2Fk'
         speed_test '四川成都' '移动' '' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuY2hpbmFtb2JpbGUuY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuY2hpbmFtb2JpbGUuY29tOjgwODAvdXBsb2Fk'
         speed_test '福建福州' '移动' '' 'aHR0cDovL3NwZWVkdGVzdDEuZmouY2hpbmFtb2JpbGUuY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuZmouY2hpbmFtb2JpbGUuY29tOjgwODAvdXBsb2Fk'
-         speed_test '广东深圳' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5zei5nZC5zaHVuc2hpaWRjLmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdC5zei5nZC5zaHVuc2hpaWRjLmNvbTo4MDgwL3VwbG9hZA=='
+        speed_test '广东深圳' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5zei5nZC5zaHVuc2hpaWRjLmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdC5zei5nZC5zaHVuc2hpaWRjLmNvbTo4MDgwL3VwbG9hZA=='
+        speed_test '重庆有线' '铁通' '' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tOjgwODAvdXBsb2Fk'
     fi
 
     if [[ ${selection} == 6 ]]; then
@@ -129,7 +130,7 @@ run_test() {
     fi
 
     if [[ ${selection} == 8 ]]; then
-        speed_test '甘肃兰州' '电信' '-6' 'aHR0cDovL3NwZWVkLmJhamlhbmp1bi5jb206ODA4MC9kb3dubG9hZA==' 'aHR0cDovL3NwZWVkLmJhamlhbmp1bi5jb206ODA4MC91cGxvYWQ='
+        speed_test '重庆有线' '铁通' '-6' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tOjgwODAvdXBsb2Fk'
         speed_test '上海5G' '联通' '-6' 'aHR0cDovLzVnLnNodW5pY29tdGVzdC5jb206ODA4MC9kb3dubG9hZAo=' 'aHR0cDovLzVnLnNodW5pY29tdGVzdC5jb206ODA4MC91cGxvYWQK'
     fi
 
