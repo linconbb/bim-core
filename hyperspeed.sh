@@ -26,7 +26,7 @@ print_info() {
     echo "——————————————————————————— HyperSpeed —————————————————————————————"
     echo "         bash <(wget -qO- https://bench.im/hyperspeed)"
     echo "         项目修改自: https://github.com/zq/superspeed/"
-    echo "   脚本更新by ChinaNet AS4134"
+    echo "   脚本更新by ChinaNet AS4134  2023/8/18"
     echo "————————————————————————————————————————————————————————————————————"
 }
 
