@@ -89,11 +89,12 @@ run_test() {
     failed=( )
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 3 ]]; then
-        speed_test '上海' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEub25saW5lLnNoLmNuOjgwODAvZG93bmxvYWQK' 'aHR0cDovL3NwZWVkdGVzdDEub25saW5lLnNoLmNuOjgwODAvdXBsb2FkCg=='
+        speed_test '上海' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEub25saW5lLnNoLmNuOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEub25saW5lLnNoLmNuOjgwODAvdXBsb2Fk'
+        speed_test '天津' '电信' '' 'aHR0cDovL3N5LnRqdGVsZS5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC9kb3dubG9hZA==' 'aHR0cDovL3N5LnRqdGVsZS5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC91cGxvYWQ='
         speed_test '江苏镇江5G' '电信' '' 'aHR0cDovLzVnemhlbmppYW5nLnNwZWVkdGVzdC5qc2luZm8ubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzVnemhlbmppYW5nLnNwZWVkdGVzdC5qc2luZm8ubmV0OjgwODAvdXBsb2Fk'
         speed_test '江苏南京5G' '电信' '' 'aHR0cDovLzVnbmFuamluZy5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL2Rvd25sb2FkCg==' 'aHR0cDovLzVnbmFuamluZy5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL3VwbG9hZAo='
         speed_test '江苏苏州5G' '电信' '' 'aHR0cDovLzRnc3V6aG91MS5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL2Rvd25sb2Fk' 'aHR0cDovLzRnc3V6aG91MS5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL3VwbG9hZA=='
-        speed_test '湖北武汉' '电信' '' 'aHR0cDovL3ZpcHNwZWVkdGVzdDEud3VoYW4ubmV0LmNuOjgwODAvZG93bmxvYWQK' 'aHR0cDovL3ZpcHNwZWVkdGVzdDEud3VoYW4ubmV0LmNuOjgwODAvdXBsb2FkCg=='
+        speed_test '湖北武汉' '电信' '' 'aHR0cDovL3ZpcHNwZWVkdGVzdDgud3VoYW4ubmV0LmNuOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3ZpcHNwZWVkdGVzdDgud3VoYW4ubmV0LmNuOjgwODAvdXBsb2Fk'
         speed_test '四川成都' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuMTg5LmNuOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuMTg5LmNuOjgwODAvdXBsb2Fk'
     fi
 
