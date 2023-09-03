@@ -95,6 +95,7 @@ run_test() {
         speed_test '江苏镇江5G' '电信' '' 'aHR0cDovLzVnemhlbmppYW5nLnNwZWVkdGVzdC5qc2luZm8ubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzVnemhlbmppYW5nLnNwZWVkdGVzdC5qc2luZm8ubmV0OjgwODAvdXBsb2Fk'
         speed_test '江苏南京5G' '电信' '' 'aHR0cDovLzVnbmFuamluZy5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL2Rvd25sb2FkCg==' 'aHR0cDovLzVnbmFuamluZy5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL3VwbG9hZAo='
         speed_test '江苏苏州5G' '电信' '' 'aHR0cDovLzRnc3V6aG91MS5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL2Rvd25sb2Fk' 'aHR0cDovLzRnc3V6aG91MS5zcGVlZHRlc3QuanNpbmZvLm5ldDo4MDgwL3VwbG9hZA=='
+        speed_test '安徽合肥5G' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEuYWgxNjMuY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuYWgxNjMuY29tOjgwODAvdXBsb2Fk'
         speed_test '湖北武汉' '电信' '' 'aHR0cDovL3ZpcHNwZWVkdGVzdDgud3VoYW4ubmV0LmNuOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3ZpcHNwZWVkdGVzdDgud3VoYW4ubmV0LmNuOjgwODAvdXBsb2Fk'
         speed_test '四川成都' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuMTg5LmNuLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuMTg5LmNuLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvdXBsb2Fk'
     fi
