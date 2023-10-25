@@ -102,7 +102,9 @@ run_test() {
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 4 ]]; then
-        speed_test '江苏无锡' '联通' '' 'aHR0cDovL3NwZWVkdGVzdDIubml1dGsuY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDIubml1dGsuY29tOjgwODAvdXBsb2Fk'
+        speed_test '上海' '联通' '' 'aHR0cHM6Ly81Zy5zaHVuaWNvbXRlc3QuY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODgvZG93bmxvYWQ=' 'aHR0cHM6Ly81Zy5zaHVuaWNvbXRlc3QuY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODgvdXBsb2Fk'
+        speed_test '江苏无锡' '联通' '' 'aHR0cHM6Ly9zcGVlZHRlc3QyLm5pdXRrLmNvbS5wcm9kLmhvc3RzLm9va2xhc2VydmVyLm5ldDo4MDgwL2Rvd25sb2Fk' 'aHR0cHM6Ly9zcGVlZHRlc3QyLm5pdXRrLmNvbS5wcm9kLmhvc3RzLm9va2xhc2VydmVyLm5ldDo4MDgwL3VwbG9hZA=='
+        speed_test '北京' '联通' '' 'aHR0cHM6Ly9iZWlqaW5nLnVuaWNvbXRlc3QuY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cHM6Ly9iZWlqaW5nLnVuaWNvbXRlc3QuY29tOjgwODAvdXBsb2Fk'
         speed_test '海南三亚' '联通' '' 'aHR0cDovL2hpbi1zYW55YTEubmV0Y3V0ZS5jb206ODA4MC9kb3dubG9hZA==' 'aHR0cDovL2hpbi1zYW55YTEubmV0Y3V0ZS5jb206ODA4MC91cGxvYWQ='
         speed_test '湖南长沙5G' '联通' '' 'aHR0cDovL3NwZWVkdGVzdDAxLmhuMTY1LmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdDAxLmhuMTY1LmNvbTo4MDgwL3VwbG9hZA=='
         speed_test '辽宁沈阳' '联通' '' 'aHR0cDovL3VuaWNvbXNwZWVkdGVzdC5jb206ODA4MC9kb3dubG9hZAo=' 'aHR0cDovL3VuaWNvbXNwZWVkdGVzdC5jb206ODA4MC91cGxvYWQK'
@@ -110,6 +112,7 @@ run_test() {
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 5 ]]; then
+        speed_test '广东广州' '移动' '' 'aHR0cDovLzIyMS4xNzkuNDYuMjIyOjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzIyMS4xNzkuNDYuMjIyOjgwODAvdXBsb2Fk'
         speed_test '北京' '移动' '' 'aHR0cDovLzIxMS4xMzYuMzAuMTE0OjkwMDAvc3BlZWQvMjAwMDAwMC5kYXRhCg==' 'aHR0cDovLzIxMS4xMzYuMzAuMTE0OjkwMDAvc3BlZWQvMjAwMDAwLmRhdGEK'
         speed_test '浙江杭州5G' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC4xMzlwbGF5LmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdC4xMzlwbGF5LmNvbTo4MDgwL3VwbG9hZA=='
         speed_test '陕西西安5G' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5vbmUtcHVuY2gud2luOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdC5vbmUtcHVuY2gud2luOjgwODAvdXBsb2Fk'
