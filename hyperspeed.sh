@@ -109,17 +109,14 @@ run_test() {
         speed_test '海南三亚' '联通' '' 'aHR0cDovL2hpbi1zYW55YTEubmV0Y3V0ZS5jb206ODA4MC9kb3dubG9hZA==' 'aHR0cDovL2hpbi1zYW55YTEubmV0Y3V0ZS5jb206ODA4MC91cGxvYWQ='
         speed_test '湖北武汉' '联通' '' 'aHR0cDovLzExMy41Ny4yNDkuMi5wcm9kLmhvc3RzLm9va2xhc2VydmVyLm5ldDo4MDgwL2Rvd25sb2Fk' 'aHR0cDovLzExMy41Ny4yNDkuMi5wcm9kLmhvc3RzLm9va2xhc2VydmVyLm5ldDo4MDgwL3VwbG9hZA=='
         speed_test '湖南长沙5G' '联通' '' 'aHR0cDovL3NwZWVkdGVzdDAxLmhuMTY1LmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdDAxLmhuMTY1LmNvbTo4MDgwL3VwbG9hZA=='
-        speed_test '辽宁沈阳' '联通' '' 'aHR0cDovL3VuaWNvbXNwZWVkdGVzdC5jb206ODA4MC9kb3dubG9hZAo=' 'aHR0cDovL3VuaWNvbXNwZWVkdGVzdC5jb206ODA4MC91cGxvYWQK'
+        speed_test '四川成都' '联通' '' 'aHR0cDovL2N1c2NzcGVlZC4xNjlvbC5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC9kb3dubG9hZA==' 'aHR0cDovL2N1c2NzcGVlZC4xNjlvbC5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC91cGxvYWQ='
         speed_test '福建福州' '联通' '' 'aHR0cDovL3VwbG9hZDEudGVzdHNwZWVkLmNkbjE2LmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3VwbG9hZDEudGVzdHNwZWVkLmNkbjE2LmNvbTo4MDgwL3VwbG9hZA=='
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 5 ]]; then
-        speed_test '广东广州' '移动' '' 'aHR0cDovLzIyMS4xNzkuNDYuMjIyOjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzIyMS4xNzkuNDYuMjIyOjgwODAvdXBsb2Fk'
+        speed_test '江苏苏州' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5qc3FpdXlpbmcuY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdC5qc3FpdXlpbmcuY29tOjgwODAvdXBsb2Fk'
         speed_test '北京' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5ibWNjLmNvbS5jbjo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdC5ibWNjLmNvbS5jbjo4MDgwL3VwbG9hZA=='
         speed_test '浙江杭州5G' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC4xMzlwbGF5LmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdC4xMzlwbGF5LmNvbTo4MDgwL3VwbG9hZA=='
-        speed_test '陕西西安5G' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5vbmUtcHVuY2gud2luOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdC5vbmUtcHVuY2gud2luOjgwODAvdXBsb2Fk'
-        speed_test '四川成都' '移动' '' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuY2hpbmFtb2JpbGUuY29tOjgwODAvZG93bmxvYWQK' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuY2hpbmFtb2JpbGUuY29tOjgwODAvdXBsb2FkCg=='
-        speed_test '广东深圳' '移动' '' 'aHR0cDovL3NwZWVkdGVzdC5zei5nZC5zaHVuc2hpaWRjLmNvbTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL3NwZWVkdGVzdC5zei5nZC5zaHVuc2hpaWRjLmNvbTo4MDgwL3VwbG9hZA=='
         speed_test '重庆有线' '铁通' '' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tOjgwODAvdXBsb2Fk'
     fi
 
