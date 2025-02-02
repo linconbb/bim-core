@@ -17,7 +17,7 @@ check_bimc() {
     if  [ ! -e './bimc' ]; then
         echo "正在获取组件"
         arch=$(uname -m)
-        wget --no-check-certificate -qO bimc https://bench.im/bimc-$arch > /dev/null 2>&1
+        wget --no-check-certificate -qO bimc https://bimc.gink.cc/bimc-$arch > /dev/null 2>&1
         chmod +x bimc
     fi
 }
